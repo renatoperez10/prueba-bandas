@@ -16,15 +16,16 @@ body {
   justify-content: center;
   align-items: center;
 }
-section {
+p {
   text-transform: uppercase;
   font-size: 60px;
-  rotate: 90;
-  transition: all 2s rotate;
+  transition: all 1s;
+  transform: rotate(0deg);
 }
 
-section:hover {
-transition: all;
+p:hover {
+  transition: all 1s;
+  transform: rotate(360deg);
 }
 
 .bg-color section:nth-child(1) {
